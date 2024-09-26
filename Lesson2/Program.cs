@@ -34,9 +34,9 @@
 //Console.WriteLine(b+" "+x);
 
 //Вывести на экран число с точностью до сотых.
-Console.WriteLine($"{Math.PI:F2}");
+//Console.WriteLine($"{Math.PI:F2}");
 //Вывести на экран число e (основание натурального логарифма) с точностью до десятых.
-Console.WriteLine($"{Math.E:F1}");
+//Console.WriteLine($"{Math.E:F1}");
 //Составить программу вывода на экран числа, вводимого с клавиатуры. Выво-димому числу должно предшествовать сообщение "Вы ввели число".
 //try
 //{
@@ -79,14 +79,16 @@ try
     //double n = double.Parse(Console.ReadLine());
     //double y = Math.Pow(2, Math.Pow(m, n));
     //Console.WriteLine($"y={y:F2}");
-    Console.Write("Введите a:");
-    double a= double.Parse(Console.ReadLine());
-    Console.Write("Введите b:");
-    double b= double.Parse(Console.ReadLine());
-    Console.Write("Введите c:");
-    double c = double.Parse(Console.ReadLine());
-    double y = (-b+Math.Sqrt(b*b-4*a*c)) / (2*a);
-    Console.WriteLine($"y={y:F2}");
+    //Console.Write("Введите a:");
+    //double a = double.Parse(Console.ReadLine());
+    //Console.Write("Введите b:");
+    //double b = double.Parse(Console.ReadLine());
+    //Console.Write("Введите c:");
+    //double c = double.Parse(Console.ReadLine());
+    //double y = (-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a);
+    //Console.WriteLine($"y={y:F2}");
+    
+   
 }
 catch
 {
